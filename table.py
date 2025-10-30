@@ -1,8 +1,7 @@
 num=int(input("Enter the number"))
-for i in range(10):
+for i in range(11):
     {
-        print(f"{num}*{i}={num*i}");
-        i++;
+        print(f"{num}*{i}={num*i}")
     }
 cube=num*num*num;
 print(f"the cube of {num}={cube}")
